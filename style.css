@@ -1,0 +1,17 @@
+body .landing.page {
+    display: flex;
+    justify-content: center;     
+    align-items: center;         
+    height: 100vh;       
+    background-color: darkblue;       
+}
+
+button{
+    display: flex;
+    align-content: center;
+}
+
+container {
+    display: flex;
+    justify-content: center;
+}
