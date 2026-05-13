@@ -15,3 +15,20 @@ container {
     display: flex;
     justify-content: center;
 }
+
+img .landing.images{
+    width: 100%;
+    animation-name: landing-images;
+}
+
+@keyframes landing-images{
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
