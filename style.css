@@ -1,9 +1,18 @@
-body .landing.page {
+.landing.page {
     display: flex;
     justify-content: center;     
     align-items: center;         
     height: 100vh;       
     background-color: darkblue;       
+}
+
+.home {
+    display: flex;
+    justify-content: center;     
+    align-items: center;
+    background-image: url('IMGS/Fraud Third Disintegration Loop.webp');
+    background-size: cover;
+    background-position: center;
 }
 
 button{

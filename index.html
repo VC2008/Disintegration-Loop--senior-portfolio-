@@ -1,69 +1,255 @@
-<!doctype html>
-<html lang="en" data-bs-theme="light">
-    <head>
-        <title>DISINTEGRATION LOOP</title>
-        <!-- Required meta tags -->
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DISINTEGRATION LOOP</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      @import "node_modules/bootstrap/scss/bootstrap";
+    />
 
-        <!-- Bootstrap CSS v5.3.8 -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-            crossorigin="anonymous"/>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-    </head>
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
 
-    <body class="home page">
-        <header>
-            <!-- place navbar here -->
-        </header>
-        <main>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="row">
-                            <div class="col-4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h3 class="card-title">Title</h3>
-                                        <p class="card-text">Text</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h3 class="card-title">Title</h3>
-                                        <p class="card-text">Text</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/mtm4vxw.css">
+  </head>
 
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12">
-                        <button class="btn btn-primary" onclick="window.location.href='portfolio.html'">Go to portfolio</button>
-                    </div>
-                </div>
+  <body class="Home">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary text-bg-info">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Portfolio Home</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Monthly Websites
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Costa Rica Website</a></li>
+                  <li><a class="dropdown-item" href="#">November</a></li>
+                  <li><a class="dropdown-item" href="#">December</a></li>
+                  <li><a class="dropdown-item" href="#">Hangman website</a></li>
+                  <li><a class="dropdown-item" href="#">Team Project</a></li>
+                  <li><a class="dropdown-item" href="#">College Website</a></li>
+                  <li><a class="dropdown-item" href="#">Winter project</a></li>
+                  <li><a class="dropdown-item" href="#">Client Project</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="row d-flex justify-content-center py-5 mb-3">
+        <div class="col-6 text-center">
+          <h1 class="pt-3">DISINTEGRATION LOOP</h1>
+          <p>Honors Web Design</p>
+          <p>2026</p>
+        </div>
+      </div>
+      <br />
+      <!--first row of cards-->
+      <div class="row d-flex justify-content-center align-items-center my-3">
+         <!--Gallery Description on small screens-->
+         <div class="d-lg-none col-md-12">
+          <div class="card text-center">
+            <div class="card-body ">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text"> Im you see this, you're on a mobile screen 
+              </p>
             </div>
-        </main>
-        <footer>
-            <!-- place footer here -->
-        </footer>
-        <!-- Bootstrap JavaScript Bundle (includes Popper) -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-            crossorigin="anonymous"
-        ></script>
-        <link rel="script" href="script.js">
-    </body>
+          </div>
+        </div>
+          <!--October Website-->
+        <div class="col-lg-2 col-md-6 col-sm-12">
+          <div class="card text-center text-bg-dark">
+            <img src="https://picsum.photos/300/150" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="https://vc2008.github.io/Look-Ma-I-m-Famous-/" class="btn btn-danger">Look Ma Im Famous!</a>
+            </div>
+          </div>
+        </div>
+         <!--November Website-->
+        <div class="col-lg-2 col-md-6 col-sm-12 card text-bg-warning">
+          <div class="card text-center text-bg-danger" >
+            <img src="https://picsum.photos/300/150" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">November</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="https://vc2008.github.io/World-Salad/" class="btn btn-warning">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+           <!--Gallery Description-->
+        <div class="col-lg-2 d-none d-lg-block">
+          <div class="card text-center text-bg-primary">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text"> Hey Look Buddy, I'm an engineer,
+                and that means I solve problems.
+              </p>
+            </div>
+          </div>
+        </div>
+           <!--December Website-->
+        <div class="col-lg-2 col-md-6 col-sm-12">
+          <div class="card text-center text-bg-info">
+            <img src="https://picsum.photos/300/150" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-light">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+           <!--January Website-->
+        <div class="col-lg-2 col-md-6 col-sm-12">
+          <div class="card text-center text-bg-light">
+            <img src="https://picsum.photos/300/150" class="card-img-top
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-info">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Second row of cards-->
+      <div class="row d-flex justify-content-center align-items-center mb-3">
+        <!--February Website-->
+      <div class="col-lg-2 col-md-6 col-sm-12">
+        <div class="card text-center text-bg-danger">
+          <img src="https://picsum.photos/300/150" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-dark">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+       <!--March Website-->
+      <div class="col-lg-2 col-md-6 col-sm-12">
+        <div class="card text-center text-bg-success">
+          <img src="https://picsum.photos/300/150" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-warning">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+         <!--April Website-->
+      <div class="col-lg-2 col-md-6 col-sm-12 ">
+        <div class="card text-center text-bg-primary">
+          <img src="https://picsum.photos/300/150" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-danger">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+         <!--May Website-->
+      <div class="col-lg-2 col-md-6 col-sm-12">
+        <div class="card text-center text-bg-success">
+          <img src="https://picsum.photos/300/150" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-info">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+         <!--June Website-->
+      <div class="col-lg-2 col-md-6 col-sm-12">
+        <div class="card text-center">
+          <img src="https://picsum.photos/300/150" class="card-img-top" alt="..."
+          />
+          <div class="card-body text-bg-warning">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-light">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    </main>
+    <footer>
+      <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
