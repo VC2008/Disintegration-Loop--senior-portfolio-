@@ -11,48 +11,48 @@ var projects = [
         "projectYear": 2024,
         "mainSubject": "General Css",
         "ranking": 4,
-        "description": "A brief description of the project."
+        "description": "Make a page for the farmers market"
     },
     {
         "projectName": "Magic 8 Ball",
         "projectYear": 2025,
         "mainSubject": "JS prompts",
         "ranking": 2,
-        "description": "A brief description of the project."
+        "description": "A simple magic 8 ball game"
     },
     {
         "projectName": "Adjective Generator",
         "projectYear": 2025,
         "mainSubject": "Js lists",
         "ranking": 7,
-        "description": "A brief description of the project."
+        "description": "Uses arrays to generate random adjectives"
     },
     {
         "projectName": "Hangman Project",
         "projectYear": 2025,
         "mainSubject": "General html",
         "ranking": 1,
-        "description": "A brief description of the project."
+        "description": "A classic hangman game implemented with HTML, CSS, and JavaScript"
     },
     {
         "projectName": "College Project",
         "projectYear": 2025,
         "mainSubject": "General html",
         "ranking": 8,
-        "description": "A brief description of the project."
+        "description": "Website for a college you'd like to attend"
     },
     {
         "projectName": "Winter Project",
         "projectYear": 2026,
         "mainSubject": "Js and Css",
         "ranking": 6,
-        "description": "A brief description of the project."
+        "description": "Team project for winter break"
     },
     {
         "projectName": "Client Project",
         "projectYear": 2026,
         "mainSubject": "Working with others + JS",
         "ranking": 5,
-        "description": "A brief description of the project."
+        "description": "music website for my friend"
     }
 ]
