@@ -59,15 +59,15 @@
         ];
 
 
-        // STEP 2: Grab the container from HTML
+      
         const container = document.getElementById("projectContainer");
 
 
-        // STEP 3: Sort projects by ranking
+       
         projects.sort((a, b) => b.ranking - a.ranking);
 
 
-        // STEP 4: Display each project
+
         projects.forEach(project => {
 
             // Print project names to console

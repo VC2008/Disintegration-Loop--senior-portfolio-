@@ -29,6 +29,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 
     gap: 20px;
+    animation: spin 5s infinite linear;
 }
 
 /* PROJECT CARDS */
@@ -72,4 +73,9 @@ img .landing.images{
     100% {
         transform: scale(1);
     }
+}
+
+@keyframes spin{
+    from {translate: 0;}
+    to {translate: -100%;}
 }
