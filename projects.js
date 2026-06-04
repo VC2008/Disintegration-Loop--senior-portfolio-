@@ -14,7 +14,7 @@ var projects = [
         "mainSubject": "General Css",
         "ranking": 4,
         "description": "Make a page for the farmers market",
-         "image": "IMGS/Flag-Costa-Rica.webp",
+         "image": "IMGS/0e46c4744ce2bd3323ef93fc2a5922f0.300x300x1.jpg",
          "link" : "https://replit.com/join/yettujhxqq-vincentcolon"
 
     },
@@ -24,7 +24,7 @@ var projects = [
         "mainSubject": "JS prompts",
         "ranking": 2,
         "description": "A simple magic 8 ball game",
-         "image": "IMGS/Flag-Costa-Rica.webp",
+         "image": "IMGS/Djungelskog.jpg",
          "link" : "https://github.com/VC2008/MagicEightBall"
     },
     {
@@ -33,7 +33,7 @@ var projects = [
         "mainSubject": "Js lists",
         "ranking": 7,
         "description": "Uses arrays to generate random adjectives",
-         "image": "IMGS/Flag-Costa-Rica.webp",
+         "image": "IMGS/Ultra-Mega-Super-Hyper-Refined_Synthesizer.webp",
          "link" : "https://github.com/VC2008/MagicEightBall"
     },
     {
@@ -42,7 +42,7 @@ var projects = [
         "mainSubject": "General html",
         "ranking": 1,
         "description": "A classic hangman game implemented with HTML, CSS, and JavaScript",
-         "image": "IMGS/Flag-Costa-Rica.webp",
+         "image": "IMGS/Giggler-vector.webp",
          "link" : "https://github.com/VC2008/MagicEightBall"
     },
     {
@@ -51,8 +51,8 @@ var projects = [
         "mainSubject": "General html",
         "ranking": 8,
         "description": "Website for a college you'd like to attend",
-         "image": "IMGS/Flag-Costa-Rica.webp",
-         "link" : "https://github.com/VC2008/MagicEightBall"
+         "image": "IMGS/New_Jersey_IT_logo.svg.png",
+         "link" : "https://github.com/VC2008/College-Website"
     },
     {
         "projectName": "Winter Project",
@@ -60,8 +60,8 @@ var projects = [
         "mainSubject": "Js and Css",
         "ranking": 6,
         "description": "Team project for winter break",
-         "image": "IMGS/Flag-Costa-Rica.webp",
-         "link" : "https://github.com/VC2008/MagicEightBall"
+         "image": "IMGS/Wheel-of-Names.png",
+         "link" : "https://github.com/VC2008/Wheel-of-Frozen-Fortune"
     },
     {
         "projectName": "Client Project",
@@ -69,7 +69,7 @@ var projects = [
         "mainSubject": "Working with others + JS",
         "ranking": 5,
         "description": "music website for my friend",
-         "image": "IMGS/Flag-Costa-Rica.webp",
+         "image": "IMGS/Abyssboxlogo.png",
          "link" : "https://github.com/VC2008/Kaiden-s-Music-Portfolio"
     }
 ]

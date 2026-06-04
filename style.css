@@ -15,10 +15,18 @@
     background-position: center;
 }
 
+.second{
+    display: flex;
+    justify-content: center;     
+    align-items: center;
+    background-image: url('IMGS/Screenshot 2026-06-04 5.21.16 PM.png');
+    background-size: cover;
+    background-position: center;
+}
+
 body {
     font-family: 'VCR OSD Mono', monospace;
             padding: 40px;
-            text-shadow: 2px 2px #000000; 
             align-content: center;
 }
 
@@ -119,3 +127,12 @@ img .landing.images{
             letter-spacing: 2px;
             text-transform: uppercase;
         }
+
+        .hero-image {
+  background-color: rgb(254, 254, 254);
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
