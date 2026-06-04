@@ -75,7 +75,16 @@ img .landing.images{
     }
 }
 
-@keyframes spin{
-    from {translate: 0;}
-    to {translate: -100%;}
+#page-container {
+  animation: fadeIn 3s ease-in-out forwards;
 }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
