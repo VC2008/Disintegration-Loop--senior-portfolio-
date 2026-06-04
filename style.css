@@ -16,9 +16,28 @@
 }
 
 body {
-    font-family: Arial;
-    background-image: url('IMGS/Fraud Third Disintegration Loop.webp');
-    padding: 20px;
+    font-family: 'VCR OSD Mono', monospace;
+            padding: 40px;
+            text-shadow: 2px 2px #000000; 
+            align-content: center;
+}
+
+.container-fluid {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row {
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+    gap: 20px
 }
 
 /* GRID CONTAINER */
@@ -88,3 +107,15 @@ img .landing.images{
   }
 }
 
+ @font-face {
+            font-family: 'VCR OSD Mono';
+            src: url('fonts/vcr_osd_mono.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        .vcr-text {
+            font-size: 32px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
