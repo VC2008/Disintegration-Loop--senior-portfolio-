@@ -85,9 +85,10 @@ container {
     justify-content: center;
 }
 
-img .landing.images{
+.landingimages{
     width: 100%;
     animation-name: landing-images;
+    animation: 5s infinite linear;
 }
 
 @keyframes landing-images{
